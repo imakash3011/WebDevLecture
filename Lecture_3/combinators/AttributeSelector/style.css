@@ -1,0 +1,21 @@
+[href]{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+
+}
+
+[class="right"]{
+    background-color: lightgreen;
+    color: white;
+}
+
+p[class="left"]{
+    background-color: black;
+    color: hotpink;
+}
+
+[class="sp"]{
+    
+    color: hotpink;
+}
