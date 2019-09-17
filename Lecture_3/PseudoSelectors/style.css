@@ -1,0 +1,82 @@
+div{
+    background-color: lightgrey;
+}
+div:hover{
+    background-color: tomato;
+    font-size: 30px;
+}
+div:active{
+    background-color: green; 
+    font-size: 14px;
+}
+
+/* input:active{
+    background-color: lightgreen;
+} */
+
+input:focus{
+    background-color: lightgreen;
+}
+
+div:empty{
+    background-color: yellow;
+}
+
+a:link{
+    color:brown;
+}
+
+a:visited{
+    color: aqua;
+}
+
+/* structural pseudoclass selectors */
+
+li:first-child{
+    color: blueviolet;
+}
+/* 
+:only-child{
+    background-color: darkslategray;
+} */
+
+
+li:last-child{
+    color: firebrick;
+}
+
+/* span:only-child{
+    color: aqua;
+} */
+
+
+/* li:nth-child(2n+3){
+    color: aqua;
+    background-color: brown;
+} */
+
+/* li:nth-of-type(2n+3){
+    color: aqua;
+    background-color: brown;
+} */
+
+li:nth-last-of-type(-2n+9){
+    color: aqua;
+    background-color: brown;
+}
+
+/* String Matching */
+
+/* [att^=val] – the “begins with” selector
+[att$=val] – the “ends with” selector
+[att*=val] – the “contains” selector */
+
+/* [src^='http']{
+    background-color: blue;
+} */
+
+[src$='pdf']{
+    
+    background-color:red;
+}
+
