@@ -1,0 +1,51 @@
+/* .wrap{
+    height: 600px;
+    widows: 700px;
+    background-color: orange;
+    display: flex;
+    /* display: block; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* to use the below method remove the flex-wrap first3 */
+    /* align-self: ; */
+/* 
+}
+
+div{
+    /* to use stretch remove height  */
+    /* height: 50px; 
+    width: 50px;
+    margin: 50%;
+    background-color: lightgreen; */
+    /* display: inline-block; */
+
+    .wrap {
+        height: 500px;
+        width: 700px;
+        background-color: orange;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+    
+    div {
+        height: 50px;
+        width: 50px;
+        margin: 10px;
+        background: lightblue;
+    }
+    
+    #one {
+        flex-grow: 3;
+        align-self:flex-start;
+    }
+    
+    #two {
+        /* It accepts a unitless value that
+         serves as a proportion. */
+        flex-grow: 4;
+    }
