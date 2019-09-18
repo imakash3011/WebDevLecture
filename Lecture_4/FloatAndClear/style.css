@@ -1,0 +1,26 @@
+img{
+    float: left;
+    height: 80px;
+    padding-left: 10px;
+    /* padding-right: 2px; */
+    /* padding-top: 10px; */
+}
+
+.wrap{
+    border:3px solid black;
+}
+p{
+    float: left;
+    padding-left: 100px;
+}
+
+br{
+    clear : left;
+}
+
+.wrap::after{
+    content: " ";
+    display: table;
+    clear: left;
+
+}
