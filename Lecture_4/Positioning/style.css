@@ -1,0 +1,32 @@
+div{
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+/* .color{
+   
+} */
+
+body{
+    position: relative;
+    top: 60px;
+}
+
+/* relative,absolute,static, stickey,fixed */
+
+/* #seven{
+    position: fixed;
+    top:50px;
+    left:30px;
+    background-color: aqua;
+} */
+
+#seven,
+#eleven,
+#fourteen,
+#seventeen{
+    position: sticky;
+    top:40px;
+    background-color: aqua;
+}

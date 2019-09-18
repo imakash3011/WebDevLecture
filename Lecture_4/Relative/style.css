@@ -1,0 +1,16 @@
+:root{
+    background-color: aquamarine;
+    
+}
+
+#para{
+    font-size: 2ex;
+}
+
+#para1{
+    font-size: 1em;
+}
+
+#para2{
+    font-size: 2rem;
+}
