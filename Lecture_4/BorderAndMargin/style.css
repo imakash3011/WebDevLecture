@@ -1,0 +1,38 @@
+/* .wrap{
+
+    /* border-style: solid;
+    border-width:10px; 
+    border-color:red;  */
+
+    /* border-top-style: solid;
+    border-bottom-style: solid;
+    border-right-style:dashed;
+    border-left-style:dotted; */
+
+
+    /* border-style: solid dashed solid dotted;
+    border-color: red green yellow purple; */
+    /* border-width: 2px 4px 3px 1px; */
+
+
+
+
+div{
+    height: 30px;
+}
+.wrap{
+    background-color: orange;
+    border: 4px solid red;
+    height: 70px;
+    margin: auto;
+}
+
+.box{
+    background: black;
+    color:white;
+    border: 3px solid blue;
+    margin-top:top;
+    margin: 9px 9px 11px 10px;
+    padding: 10px;
+    
+}
