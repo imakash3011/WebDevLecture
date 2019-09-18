@@ -1,0 +1,9 @@
+.box{
+    height: 120px;
+    width: 180px;
+    background-color: aqua;
+    white-space: nowrap;
+    overflow: scroll;
+    text-overflow: ellipsis;
+
+}

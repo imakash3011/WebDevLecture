@@ -1,0 +1,18 @@
+ul{
+    list-style-type: disc;
+
+}
+
+ul li{
+    border:1px  solid black;
+    list-style-position: ioutside;
+}
+
+ul li{
+    background-image: url('paint.png');
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left : 50px;
+  
+}
+
