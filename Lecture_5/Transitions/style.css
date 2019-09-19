@@ -1,0 +1,103 @@
+body{
+    padding: 100px;
+}
+
+.vegeta{
+    height: 70px;
+    padding: 60px 40px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 3s; */
+    transition-property: transform;
+    transition-duration: 2s;
+}
+.wrap{
+    height: 200px;
+    width: 150px;
+    background-color: gold;
+}
+
+.wrap:hover .vegeta{
+    /* transform: scale(2); */
+    /* transform: rotateX(180deg); */
+    /* transform: skewY(40deg); */
+    /* transform: translateX(40px); */
+    /* transform: translateY(40px); */
+    transform: rotate(3turn) translate(50px,50px) scale(2);
+}
+
+
+
+
+/* .wrap{
+    height: 200px;
+    width: 150px;
+    background-color: gold;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 3s;
+}
+.wrap:hover{
+    height: 400px;
+    width: 300px;
+    background-color: purple;
+    transition-property: all;
+    transition-duration: 3s;
+} */
+
+
+
+
+/* .wrap:hover .vegeta{
+    transform: scale(2);
+    transform: skewY(45deg);
+    transform: translateY(40px);
+} */
+
+
+
+
+/* body{
+    padding: 40px 40px;
+}
+
+.vegeta{
+    height: 80px;
+    /* width: 80px; */
+    /* padding: 100px 50px; */
+    /* transition-property: transfrom;
+    /* transition-duration: 2s; */
+/* }
+.wrap{
+    height: 300px;
+    width: 190px;
+    background-color:gold; */ 
+    /* transition-property: background-color; */
+    /* transition-property: all; */
+    /* transition-duration: 1s,2s;  */
+    /* transition-delay: 1s; */
+    
+
+/* .wrap:hover .vegeta{
+    transform: scale(2);
+    /* transform: rotateX(180deg); */
+    /* transform: skewY(40deg); */
+    /* transform: translateX(40px); */
+    /* transform: translateY(40px); */
+
+/* 
+    .wrap:hover .vegeta{
+        height: 300px;
+        width: 190px;
+        background-color: purple;
+        transition-property: all;
+        /* transition-property: background-color,height; */
+        /* transition-duration: 2s,1s; */
+        /* transition-duration: 3s;
+        transition-delay: 1s; */
+ 
+
+/* .wrap:hover .vegeta{
+    transform:  translate(100px,200px) rotate(2turn) scale(2);
+
+   } */ 
