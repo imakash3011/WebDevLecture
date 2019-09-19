@@ -1,0 +1,40 @@
+body{
+    perspective: 800px;
+    /* point of view */
+    /* perspective-origin: 0% 0%; */
+}
+
+/* 
+match the height and width for .wrap  and .wrap div */
+.wrap{
+    height: 400px;
+    width: 300px;
+    margin: auto;
+    /* background-color: aqua; */
+    transition-duration: 2s;
+    transform-style: preserve-3d;
+}
+
+.wrap div{
+    height: 400px;
+    width: 300px; 
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front-side{
+   
+    background: gold url('Vegeta.jpeg')   no-repeat center;
+    z-index: 100;
+
+}
+
+.back-side{
+    background: aqua ;
+    transform: rotateY(180deg);
+}
+
+.wrap:hover{
+    /* transform: translateZ(100px); */
+    transform: rotateY(180deg);
+}
