@@ -1,0 +1,99 @@
+window.window=window
+Window {parent: Window, postMessage: ƒ, blur: ƒ, focus: ƒ, close: ƒ, …}
+window.window.window==window.window
+true
+o.o=o
+{k: 1, o: {…}, l: ƒ}
+o.o==o
+true
+
+
+
+p.staticFun()
+script.js:32 This is static 
+undefined
+
+Person.staticFun()
+script.js:32 This is static 
+undefined
+
+
+
+
+s.getFirstname()
+"akash"
+s.marks
+90
+s.age
+22
+s.__proto__
+Person {constructor: ƒ}
+s.__proto__==Person
+false
+s.__proto__==Person.__proto__
+false
+clear
+ƒ clear() { [Command Line API] }
+
+Student.prototype.__proto__==Person.prototype
+true
+Student.__proto__.__proto__==Person.prototype
+false
+
+
+
+
+class Person{
+public:
+    char name[100];
+    int age;
+    Person(name,age){
+        this->name = name;
+        this->age = age;
+    }
+};
+
+o
+Object { k: 1, l: l()
+ }
+
+o.o = o
+Object { k: 1, l: l()
+, o: {…} }
+
+o.o == o
+true
+window.window.window == window
+true
+window.window.window == window.window
+true
+o.o.o.o.o.o.o.o.o.o == o
+trues
+
+a = 'Harry Potter'
+"Harry Potter"
+ar = a.split(' ')
+Array [ "Harry", "Potter" ]
+
+ar.pop()
+"Potter"
+ar
+Array [ "Harry" ]
+
+ar.push('Weasley')
+2
+ar
+Array [ "Harry", "Weasley" ]
+
+a = ar.join(' ')
+"Harry Weasley"
+a
+"Harry Weasley"
+
+Student.__proto__ == Person
+true
+Student.prototype.__proto__ == Person.prototype
+true
+
+s.__proto__ == Student.prototype
+true
