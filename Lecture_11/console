@@ -1,0 +1,30 @@
+$
+
+$
+ƒ $(selector, [startNode]) { [Command Line API] }
+document.body.children
+HTMLCollection(7) [div#main-frame-error.interstitial-wrapper, div#sub-frame-error, div#offline-resources, script, script, script, script, main-frame-error: div#main-frame-error.interstitial-wrapper, sub-frame-error: div#sub-frame-error, offline-resources: div#offline-resources]
+
+
+temp0
+<div id="div">
+
+document.getElementById('div')
+<div id="div">
+
+$
+function jQuery()
+
+jQuery
+function jQuery()
+
+document.body.children
+HTMLCollection { 0: div#div, 1: button#btn, 2: script, 3: script, 4: script
+, length: 5, … }
+
+document.head.children
+HTMLCollection { 0: meta, 1: meta, 2: meta, 3: title
+, length: 4, … }
+
+$('#div')
+Object [ div#div ]
