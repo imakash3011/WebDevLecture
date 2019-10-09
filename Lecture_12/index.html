@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <button id="btn" onclick="printLoop()"> ADD</button>
+    <ul id="list"></ul>
+    
+    
+    <script>
+        let inp=document.getElementById('inp');
+        // let N=parseInt(inp.value);
+        let list=document.getElementById('list');
+        let btn=document.getElementById('btn');
+    function printLoop(){
+        let x='';
+        for(let i=0;i<N;i++){
+            let str='';
+
+            // if(i%15==0)str='fizzbuzz';
+            // else if(i%5==0)str='buzz';
+            // else if(i%5==0)str='buzz';
+            // else str=i;
+
+            if(i%3==0)str +='fizz';
+            if(i%5==0)str +='buzz';
+            if(str=='')str =i;
+
+
+            //1 method...it is the worst method to sol
+            //touch the DOM as less as you can 
+            //below code will give a lot of garbage
+            // list.innerHTML+='<li>${str}</li>';
+           
+            //2 method
+            // x +='<li>${str}</li>';
+
+            //3 method
+            let li=document.createElement('li');
+            li.innerText=str;
+            list.appendChild(li);
+        }
+        //2 method
+        // list.innerHTML =x;
+    }
+    </script>
+
+
+</body>
+</html>
