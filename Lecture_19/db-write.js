@@ -11,8 +11,11 @@ db.serialize(()=>{
             done BOOLEAN
         )`
     )
+    //to insert any new task open
+    // and to read any inserted database goto the db-read.js file and apply condition or simply read the file 
+    // and to read the file using DB browser click on the test.db containing folder and open the folder using DB browser
     db.run(
-        `INSERT INTO tasks VALUES(1,'do your task',true)`
+        `INSERT INTO tasks VALUES(5,'do my task',true)`
     )
 
 })
